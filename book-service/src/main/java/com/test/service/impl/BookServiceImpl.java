@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class BookServiceImpl implements BookService {
-
     @Resource
     BookMapper mapper;
 
@@ -17,4 +16,3 @@ public class BookServiceImpl implements BookService {
         return mapper.getBookById(bid);
     }
 }
-

@@ -5,11 +5,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>user-service</module>
-        <module>book-service</module>
         <module>borrow-service</module>
         <module>commons</module>
-        <module>commons</module>
         <module>eureka-server</module>
+        <module>book-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
