@@ -10,7 +10,6 @@ import com.test.mapper.BorrowMapper;
 import com.test.service.BorrowService;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 import java.util.stream.Collectors;

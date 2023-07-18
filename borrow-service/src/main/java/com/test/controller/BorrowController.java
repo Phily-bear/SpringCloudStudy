@@ -16,5 +16,4 @@ public class BorrowController {
     UserBorrowDetail findUserBorrows(@PathVariable("uid") int uid){
         return service.getUserBorrowDetailByUid(uid);
     }
-
 }
